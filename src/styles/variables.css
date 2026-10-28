@@ -1,0 +1,103 @@
+/* MealLoop Design System - Apple-Inspired Solid Tokens */
+:root {
+  /* Light Theme Color Tokens */
+  --color-bg-main: #F5F5F7;
+  --color-bg-surface: #FFFFFF;
+  --color-bg-surface-secondary: #F0F0F2;
+  --color-bg-surface-tertiary: #E5E5EA;
+
+  --color-text-primary: #1D1D1F;
+  --color-text-secondary: #6E6E73;
+  --color-text-tertiary: #86868B;
+
+  --color-border: #D2D2D7;
+  --color-border-subtle: #E5E5EA;
+  --color-border-strong: #A1A1A6;
+
+  --color-primary-accent: #0071E3;
+  --color-primary-accent-hover: #0077ED;
+  --color-primary-accent-pressed: #0062C4;
+  --color-primary-accent-subtle: #EBF4FF;
+
+  /* Food Marketplace Warm Accent */
+  --color-food-accent: #E05315;
+  --color-food-accent-hover: #C9460E;
+  --color-food-accent-subtle: #FFF2EB;
+
+  --color-success: #248A3D;
+  --color-success-subtle: #EAF6EC;
+  --color-warning: #B86E00;
+  --color-warning-subtle: #FEF7E6;
+  --color-error: #D70015;
+  --color-error-subtle: #FDF1F2;
+
+  /* Radii */
+  --radius-sm: 8px;
+  --radius-input: 11px;
+  --radius-btn: 12px;
+  --radius-card: 18px;
+  --radius-section: 22px;
+
+  /* Spacing Scale */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+
+  /* Restrained Shadows - Solid surfaces, no glass glow */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 2px rgba(0, 0, 0, 0.03);
+  --shadow-card-hover: 0 6px 16px rgba(0, 0, 0, 0.07);
+  --shadow-popover: 0 10px 28px rgba(0, 0, 0, 0.1);
+  --shadow-modal: 0 20px 48px rgba(0, 0, 0, 0.16);
+
+  /* Animation Timings */
+  --ease-apple: cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-fast: 0.14s var(--ease-apple);
+  --transition-normal: 0.22s var(--ease-apple);
+
+  /* Max Widths */
+  --content-max-width: 1200px;
+}
+
+/* Dark Theme Overrides */
+[data-theme="dark"] {
+  --color-bg-main: #161617;
+  --color-bg-surface: #222225;
+  --color-bg-surface-secondary: #2C2C30;
+  --color-bg-surface-tertiary: #38383D;
+
+  --color-text-primary: #F5F5F7;
+  --color-text-secondary: #A1A1A6;
+  --color-text-tertiary: #6E6E73;
+
+  --color-border: #38383D;
+  --color-border-subtle: #2C2C30;
+  --color-border-strong: #545459;
+
+  --color-primary-accent: #0071E3;
+  --color-primary-accent-hover: #0077ED;
+  --color-primary-accent-pressed: #005BB5;
+  --color-primary-accent-subtle: #12243A;
+
+  --color-food-accent: #FF6B35;
+  --color-food-accent-hover: #FF7D4D;
+  --color-food-accent-subtle: #331A12;
+
+  --color-success: #30D158;
+  --color-success-subtle: #142E1B;
+  --color-warning: #FF9F0A;
+  --color-warning-subtle: #332408;
+  --color-error: #FF453A;
+  --color-error-subtle: #361416;
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.2);
+  --shadow-card: 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px 2px rgba(0, 0, 0, 0.2);
+  --shadow-card-hover: 0 8px 20px rgba(0, 0, 0, 0.4);
+  --shadow-popover: 0 12px 32px rgba(0, 0, 0, 0.5);
+  --shadow-modal: 0 24px 54px rgba(0, 0, 0, 0.65);
+}

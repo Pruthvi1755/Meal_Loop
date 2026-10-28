@@ -1,0 +1,103 @@
+/* Apple SF Typography Rules */
+body, button, input, select, textarea {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  color: var(--color-text-primary);
+}
+
+/* Typography Hierarchy */
+.text-hero {
+  font-size: clamp(2.5rem, 4.5vw, 3.75rem);
+  line-height: 1.08;
+  letter-spacing: -0.028em;
+  font-weight: 700;
+  color: var(--color-text-primary);
+}
+
+.text-h1 {
+  font-size: clamp(1.85rem, 3vw, 2.5rem);
+  line-height: 1.15;
+  letter-spacing: -0.022em;
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.text-h2 {
+  font-size: clamp(1.4rem, 2vw, 1.75rem);
+  line-height: 1.25;
+  letter-spacing: -0.018em;
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.text-h3 {
+  font-size: 1.25rem;
+  line-height: 1.32;
+  letter-spacing: -0.012em;
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.text-h4 {
+  font-size: 1.0625rem;
+  line-height: 1.38;
+  letter-spacing: -0.008em;
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.text-body-lead {
+  font-size: 1.1875rem;
+  line-height: 1.5;
+  letter-spacing: -0.006em;
+  color: var(--color-text-secondary);
+}
+
+.text-body {
+  font-size: 0.9375rem; /* 15px Apple default body */
+  line-height: 1.48;
+  letter-spacing: -0.003em;
+  color: var(--color-text-primary);
+}
+
+.text-body-muted {
+  font-size: 0.9375rem;
+  line-height: 1.48;
+  letter-spacing: -0.003em;
+  color: var(--color-text-secondary);
+}
+
+.text-small {
+  font-size: 0.8125rem; /* 13px Apple caption */
+  line-height: 1.42;
+  color: var(--color-text-secondary);
+}
+
+.text-micro {
+  font-size: 0.75rem; /* 12px */
+  line-height: 1.35;
+  letter-spacing: 0.01em;
+  font-weight: 500;
+}
+
+.text-uppercase-label {
+  font-size: 0.6875rem; /* 11px */
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  color: var(--color-text-tertiary);
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
+}
