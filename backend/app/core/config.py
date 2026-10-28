@@ -43,7 +43,8 @@ class Settings(BaseSettings):
     # CORS Allowed Origins
     BACKEND_CORS_ORIGINS: Union[List[str], str] = [
         "http://localhost:3000",
-        "http://127.0.0.1:3000"
+        "http://127.0.0.1:3000",
+        "https://meal-loop-seven.vercel.app"
     ]
 
     @field_validator("BACKEND_CORS_ORIGINS", mode="before")
